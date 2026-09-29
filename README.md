@@ -32,3 +32,9 @@ This screenshot shows the Windows 11 client, Ubuntu server, and Ubuntu attack ma
 The attack machine successfully pinged the Ubuntu server at `192.168.1.6`, confirming that the server was reachable before the firewall restriction was applied.
 
 ![Successful Ping to Ubuntu Server](Screenshots/3.%20Successful%20Ping%20to%20Ubuntu%20Server.png)
+
+## 4. Successful Ping to Windows Client
+
+The attack machine successfully pinged the Windows 11 client at `192.168.1.4`, confirming that the client was also reachable during baseline connectivity testing.
+
+![Successful Ping to Windows Client](Screenshots/4.%20Successful%20Ping%20to%20Windows%20Client.png)
