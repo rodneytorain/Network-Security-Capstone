@@ -56,3 +56,15 @@ After the UFW firewall rule was applied to the Ubuntu server, the attack machine
 Wireshark captured ICMP Echo Requests from the attack machine, but no successful replies from the Ubuntu server. This verified that the server was no longer responding to the ping requests after the firewall restriction was applied.
 
 ![Wireshark Capture After Firewall Rule](Screenshots/7.%20Wireshark%20Capture%20After%20Firewall%20Rule.png)
+
+## Results
+
+The lab demonstrated that the Ubuntu server was reachable before the firewall restriction was applied and that the UFW rule successfully stopped the server from responding to ICMP ping requests from the attack machine. Wireshark was used to verify the change in traffic behavior before and after the firewall configuration.
+
+## What I Learned
+
+- How to build and run multiple virtual machines in Oracle VirtualBox
+- How to test connectivity between systems using ping
+- How to apply UFW firewall restrictions on an Ubuntu server
+- How to use Wireshark to compare ICMP traffic before and after a firewall change
+- How to validate whether a security control is working using both command-line testing and packet analysis
