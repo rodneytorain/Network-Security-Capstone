@@ -50,3 +50,9 @@ Wireshark captured ICMP Echo Requests and Echo Replies between the attack machin
 After the UFW firewall rule was applied to the Ubuntu server, the attack machine could no longer successfully ping the server. The test resulted in 100% packet loss, confirming that the firewall restriction was working.
 
 ![Server Ping Blocked After Firewall Rule](Screenshots/6.%20Server%20Ping%20Blocked%20After%20Firewall%20Rule.png)
+
+## 7. Wireshark Capture After Firewall Rule
+
+Wireshark captured ICMP Echo Requests from the attack machine, but no successful replies from the Ubuntu server. This verified that the server was no longer responding to the ping requests after the firewall restriction was applied.
+
+![Wireshark Capture After Firewall Rule](Screenshots/7.%20Wireshark%20Capture%20After%20Firewall%20Rule.png)
