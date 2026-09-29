@@ -38,3 +38,15 @@ The attack machine successfully pinged the Ubuntu server at `192.168.1.6`, confi
 The attack machine successfully pinged the Windows 11 client at `192.168.1.4`, confirming that the client was also reachable during baseline connectivity testing.
 
 ![Successful Ping to Windows Client](Screenshots/4.%20Successful%20Ping%20to%20Windows%20Client.png)
+
+## 5. Wireshark Capture Before Firewall Rule
+
+Wireshark captured ICMP Echo Requests and Echo Replies between the attack machine and Ubuntu server, confirming normal two-way communication before the firewall restriction was applied.
+
+![Wireshark Capture Before Firewall Rule](Screenshots/5.%20Wireshark%20Capture%20Before%20Firewall%20Rule.png)
+
+## 6. Server Ping Blocked After Firewall Rule
+
+After the UFW firewall rule was applied to the Ubuntu server, the attack machine could no longer successfully ping the server. The test resulted in 100% packet loss, confirming that the firewall restriction was working.
+
+![Server Ping Blocked After Firewall Rule](Screenshots/6.%20Server%20Ping%20Blocked%20After%20Firewall%20Rule.png)
